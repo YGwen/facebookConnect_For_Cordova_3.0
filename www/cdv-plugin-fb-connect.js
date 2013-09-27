@@ -1,5 +1,3 @@
-
-cordova.define("org.apache.cordova.facebook", function(require, exports, module) {
 	var cordova = window.cordova || window.Cordova;
 	var exec = require('cordova/exec');
 
@@ -67,4 +65,4 @@ cordova.define("org.apache.cordova.facebook", function(require, exports, module)
 		}, (fail?fail:null), 'ConnectPlugin', 'showDialog', [params] );
 	};
 	module.exports = CDV;
-});
+
