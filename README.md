@@ -1,2 +1,1 @@
-facebookConnect_For_Cordova_3.0
-===============================
+cordova-plugin-facebook
